@@ -38,7 +38,7 @@ class Panel extends View {
         //設定bitmap大小
         vBitmap = Bitmap.createBitmap(dm.widthPixels, dm.heightPixels, Bitmap.Config.RGB_565);
         vBitmapCanvas = new Canvas(vBitmap);
-        vBitmapCanvas.drawColor(Color.WHITE);
+        //vBitmapCanvas.drawColor(Color.WHITE);
 
     }
 
